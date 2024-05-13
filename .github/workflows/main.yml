@@ -1,0 +1,7 @@
+Change your heroku.yml file into this
+
+build:
+  docker:
+    worker: Dockerfile
+run:
+  worker: bun run bun:start
